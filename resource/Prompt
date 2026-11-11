@@ -1,0 +1,353 @@
+ },
+ "method_strings": {
+  "CResourceSystem::BlockingLoadResourceByName": [
+   "0x1801f98e0"
+  ],
+  "CResourceSystem::BlockingLoadResourceByNameIntoJustInTimeManifest": [
+   "0x1801f9980"
+  ],
+  "CResourceSystem::FindResourceById": [
+   "0x1801f9a20"
+  ],
+  "CResourceSystem::GetResourceStatus": [
+   "0x1801f9ac0"
+  ],
+  "CResourceSystem::GetResourceTypeName": [
+   "0x1801f9b60"
+  ],
+  "CDOTAGameManager::GetHeroIDByName": [
+   "0x180204e50"
+  ],
+  "CDOTAGameManager::GetHeroNameByID": [
+   "0x180204f90"
+  ],
+  "CDOTA_ParticleManager::DestroyParticleEffect": [
+   "0x180205d50"
+  ],
+  "CDOTA_ParticleManager::ParticleSetControl": [
+   "0x180205eb0"
+  ],
+  "CAnimationSystem::ComputeSequenceCyclesPerSecond": [
+   "0x180209540"
+  ],
+  "CDOTAInventoryManager::AcknowledgeItems": [
+   "0x18020a9f0"
+  ],
+  "CDOTAInventoryManager::GetBaseItemForHero": [
+   "0x18020c3d0"
+  ],
+  "CDOTAInventoryManager::GetItemInLoadoutForHeroBySlotTypeAndSteamID": [
+   "0x18020c500"
+  ],
+  "CDOTAInventoryManager::GetItemSlotsForHero": [
+   "0x18020c630"
+  ],
+  "CEventDispatcher::Dispatch": [
+   "0x180211360"
+  ],
+  "CBaseFileSystem::Close": [
+   "0x180214d00"
+  ],
+  "CBaseFileSystem::FileExists": [
+   "0x180214e70"
+  ],
+  "CBaseFileSystem::OpenEx": [
+   "0x1802150d0"
+  ],
+  "CBaseFileSystem::ReadEx": [
+   "0x180215240"
+  ],
+  "CBaseFileSystem::Size": [
+   "0x1802153b0",
+   "0x180215800"
+  ],
+  "CBaseFileSystem::RelativePathToFullPath": [
+   "0x180215520"
+  ],
+  "CBaseFileSystem::Seek": [
+   "0x180215690"
+  ],
+  "CBaseFileSystem::Tell": [
+   "0x180215970"
+  ],
+  "CDOTAGCClientSystem::SOCreated": [
+   "0x180215ae0"
+  ],
+  "CDOTAGCClientSystem::SODestroyed": [
+   "0x180215c40"
+  ],
+  "CDOTAGCClientSystem::SOUpdated": [
+   "0x180215db0"
+  ],
+  "CDOTAKeyBindingManager::GetKey2": [
+   "0x180215f20"
+  ],
+  "CDOTAKeyBindingManager::GetKey": [
+   "0x180216150"
+  ],
+  "CDOTA_ModifierManager::AddNewModifier": [
+   "0x180216570"
+  ],
+  "CDOTA_ModifierManager::FinalDestroy": [
+   "0x180216760"
+  ],
+  "CSceneSystem::WaitForRenderingToComplete": [
+   "0x180217010"
+  ],
+  "C_DOTA_ProjectileManager::Init": [
+   "0x180217bb0"
+  ],
+  "C_DOTA_ProjectileManager::RemoveLinearProjectile": [
+   "0x180217da0"
+  ],
+  "C_DOTA_ProjectileManager::RemoveTrackingProjectile": [
+   "0x180217f90"
+  ],
+  "CGameEntitySystem::EntityCreate": [
+   "0x180218560"
+  ],
+  "CGameEntitySystem::EntityDestroy": [
+   "0x1802186d0"
+  ],
+  "CGameEventManager::FireEvent": [
+   "0x180218e70"
+  ],
+  "CBaseFileSystem::VTable": [
+   "0x18021bfb0"
+  ],
+  "CBaseFileSystem::MarkContentCorrupt": [
+   "0x18021c100"
+  ],
+  "CDOTAGCClientSystem::VTable": [
+   "0x18021c210"
+  ],
+  "CGameEntitySystem::VTable": [
+   "0x18021c360"
+  ],
+  "CDOTAGCClientSystem::SaveSerializedSOCache": [
+   "0x18022ab60"
+  ],
+  "DotaFileSystem::GetDirectory": [
+   "0x1806a7180"
+  ],
+  "DotaFileSystem::GetVDF": [
+   "0x1806a7560"
+  ],
+  "DotaFileSystem::WriteFile": [
+   "0x1806a7bc0"
+  ],
+  "Core::Initialize": [
+   "0x1806f6c70"
+  ],
+  "HookSystem::Initialize": [
+   "0x1806f7080"
+  ],
+  "Core::InitializeLogs": [
+   "0x1806f7660",
+   "0x18270ec80"
+  ],
+  "Core::InitializeRenderer": [
+   "0x1806f8e80"
+  ],
+  "ParticleSystem::OnUpdate": [
+   "0x1806fa480"
+  ],
+  "Core::Shutdown": [
+   "0x1806fb8c0"
+  ],
+  "HookSystem::Shutdown": [
+   "0x1806fb8c0"
+  ],
+  "HkISteamGameCoordinator_IsMessageAvailable": [
+   "0x18071f560"
+  ],
+  "HkISteamGameCoordinator_RetrieveMessage": [
+   "0x18071fa10"
+  ],
+  "HkISteamGameCoordinator_SendMessage": [
+   "0x18071fb10"
+  ],
+  "HkSteamNetworkingSockets_CloseConnection": [
+   "0x180720d60"
+  ],
+  "HkSteamNetworkingSockets_ConnectByIPAddress": [
+   "0x180720ed0"
+  ],
+  "HkSteamNetworkingSockets_ConnectP2P": [
+   "0x180721070"
+  ],
+  "HkSteamNetworkingSockets_ConnectToHostedDedicatedServer": [
+   "0x180721180"
+  ],
+  "HkSteamNetworkingSockets_CreatePollGroup": [
+   "0x180721290"
+  ],
+  "HkSteamNetworkingSockets_DestroyPollGroup": [
+   "0x1807213c0"
+  ],
+  "HkSteamNetworkingSockets_FindRelayAuthTicketForServer": [
+   "0x180721510"
+  ],
+  "HkSteamNetworkingSockets_ReceiveMessagesOnPollGroup": [
+   "0x180721690"
+  ],
+  "HkSteamNetworkingSockets_ReceivedRelayAuthTicket": [
+   "0x1807220e0"
+  ],
+  "HkSteamNetworkingSockets_SendMessageToConnection": [
+   "0x1807222c0"
+  ],
+  "HkSteamNetworkingSockets_SendMessages": [
+   "0x1807224e0"
+  ],
+  "HkSteamNetworkingSockets_SetConnectionPollGroup": [
+   "0x180722e50"
+  ],
+  "ShaderDX11::Compile": [
+   "0x18073c1c0"
+  ],
+  "HkD3D11Present": [
+   "0x18073d6a0"
+  ],
+  "MelonityRenderImGuiDX11::ImGui_ImplXXX_RenderDrawData": [
+   "0x18073e010"
+  ],
+  "RenderTargetDX11::LogTexture2DDesc": [
+   "0x18073e5d0"
+  ],
+  "ShaderDX11::SetAsCurrent": [
+   "0x180740120"
+  ],
+  "TextureDX11RenderTarget::SetData": [
+   "0x180740470"
+  ],
+  "TextureDX11RenderTarget::SetSize": [
+   "0x1807407a0"
+  ],
+  "DebugMenuDetails::Configs": [
+   "0x180756bd0"
+  ],
+  "DebugMenuDetails::FilesShow": [
+   "0x18075e0b0"
+  ],
+  "DebugMenuDetails::GetVDF": [
+   "0x18075ef30"
+  ],
+  "GCSystem::Send": [
+   "0x1807639f0"
+  ],
+  "PanoramaSystem::FindByName": [
+   "0x18078a840"
+  ],
+  "ParticleSystem::Destroy": [
+   "0x18079f8e0"
+  ],
+  "CloudConfigSystem::CreateRequest": [
+   "0x18084d720"
+  ],
+  "CloudConfigSystem::ImportRequest": [
+   "0x18084dbf0"
+  ],
+  "CloudConfigSystem::Initialize": [
+   "0x18084dfa0"
+  ],
+  "CloudConfigSystem::RemoveRequest": [
+   "0x18084e720"
+  ],
+  "CloudConfigSystem::ShareRequest": [
+   "0x18084ec20"
+  ],
+  "CloudConfigSystem::SyncThread": [
+   "0x18084f1e0"
+  ],
+  "CloudConfigSystem::UpdateConfigs": [
+   "0x18084f8c0"
+  ],
+  "CloudConfigSystem::UpdateRequest": [
+   "0x180850de0"
+  ],
+  "PanoramaSystem::OnPanelCreated": [
+   "0x18086c440"
+  ],
+  "ScriptsSystem::CallCallback": [
+   "0x18087e440"
+  ],
+  "ScriptsSystem::DoByteCode": [
+   "0x18087fa65"
+  ],
+  "ScriptsSystem::DoFolder": [
+   "0x1808800e0"
+  ],
+  "ScriptsSystem::DoString": [
+   "0x180880bf0"
+  ],
+  "ScriptsSystem::Initialize": [
+   "0x180882570"
+  ],
+  "ScriptsSystem::InitializeContext": [
+   "0x1808827d0"
+  ],
+  "ScriptsSystem::ReportException": [
+   "0x180885b0c"
+  ],
+  "ScriptsSystem::ResetContext": [
+   "0x1808866d0"
+  ],
+  "ScriptsSystem::ResetIsolateAndContext": [
+   "0x180886850"
+  ],
+  "EngineSubsystemImpl::OnFireEvent": [
+   "0x1808a0710"
+  ],
+  "EntityListSubsystemImpl::PushNextCallbackInfo": [
+   "0x1808b5a10"
+  ],
+  "InputSubsystemImpl::OnImGuiInputEvent": [
+   "0x1808c6670"
+  ],
+  "ServerUtils::GetUserInfo": [
+   "0x180934870"
+  ],
+  "AbstractFileSystem::GetDirectory": [
+   "0x180be08d0"
+  ],
+  "AbstractFileSystem::GetFile": [
+   "0x180be10a0"
+  ],
+  "AbstractFileSystem::GetFileTime": [
+   "0x180be16f0"
+  ],
+  "AbstractFileSystem::WriteFile": [
+   "0x180be1c60"
+  ],
+  "RenderImGui::ResetThreadState": [
+   "0x180c4e850"
+  ],
+  "FontManager::SearchFonts": [
+   "0x180c65180"
+  ],
+  "RenderImGuiDX11::Initialize": [
+   "0x180c69000"
+  ],
+  "TextureManager::GetTexture": [
+   "0x180c74fc0"
+  ],
+  "TextureManager::GetTextureFormat": [
+   "0x180c76210"
+  ],
+  "TextureManager::LoadVTXImage": [
+   "0x180c764f0"
+  ],
+  "DebugMenu::OnDraw": [
+   "0x182712990",
+   "0x182712a40"
+  ],
+  "Menu2Renderer::PostNewFrame": [
+   "0x18271b2d0"
+  ],
+  "FontManager::ParseFontNameAndCache": [
+   "0x182726cf0"
+  ]
+ },
+ "vftables": {}
+}
